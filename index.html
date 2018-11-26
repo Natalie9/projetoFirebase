@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>Firebase</title>
+
+    <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+
+        var config = {
+            apiKey: "AIzaSyBH3hTkiYmiLz-F2FwKJqan2IwlTWRZvpQ",
+            authDomain: "meuprojetofirebase-f4627.firebaseapp.com",
+            databaseURL: "https://meuprojetofirebase-f4627.firebaseio.com",
+            projectId: "meuprojetofirebase-f4627",
+            storageBucket: "meuprojetofirebase-f4627.appspot.com",
+            messagingSenderId: "393362992987"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="index.js"></script>
+
+
+
+</head>
+
+<body>
+    <h2>Testando notificações do firebase</h2>
+
+    <p>Número de cliques: <div id="num">0</div>
+    </p>
+    <button onclick="contador()">Clique aqui</button> <br/><br/>
+
+    <form>
+        <input type="text" id="textid" name="textid" onkeyup="text(this, 'idade')"></input>
+    </form>
+
+    <button onclick="text()">Submeter</button><br/><br/>
+
+    <form>
+        <input type="text" id="textid2" name="textid" onkeyup="text(this, 'idade')"></input>
+    </form>
+
+    <button onclick="text2()">Submeter</button>
+
+
+</body>
+
+</html>

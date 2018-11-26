@@ -1,0 +1,21 @@
+[debug] [2018-11-19T16:23:53.878Z] ----------------------------------------------------------------------
+[debug] [2018-11-19T16:23:53.880Z] Command:       /home/hoda5/.nvm/versions/node/v8.11.3/bin/node /home/hoda5/.nvm/versions/node/v8.11.3/bin/firebase serve
+[debug] [2018-11-19T16:23:53.880Z] CLI Version:   6.1.0
+[debug] [2018-11-19T16:23:53.880Z] Platform:      linux
+[debug] [2018-11-19T16:23:53.880Z] Node Version:  v8.11.3
+[debug] [2018-11-19T16:23:53.880Z] Time:          Mon Nov 19 2018 14:23:53 GMT-0200 (-02)
+[debug] [2018-11-19T16:23:53.880Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-19T16:23:53.888Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-19T16:23:53.888Z] > authorizing via signed-in user
+[debug] [2018-11-19T16:23:53.888Z] [iam] checking project meuprojetofirebase-f4627 for permissions ["firebase.projects.get"]
+[debug] [2018-11-19T16:23:53.890Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/meuprojetofirebase-f4627:testIamPermissions  
+
+[debug] [2018-11-19T16:23:54.991Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-19T16:23:54.993Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/meuprojetofirebase-f4627  
+ 
+[debug] [2018-11-19T16:23:55.950Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/hoda5/projetoFirebase'...
+[info] 
+[info] ✔  database: started on http://localhost:9000
